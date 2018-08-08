@@ -7,6 +7,7 @@ public class gitworld
 
 	public static void main(String[] args)
 	{
-		new gitworld();
+		gitworld g1 = new gitworld();
+		gitworld g2 = new gitworld();
 	}
 }
