@@ -3,15 +3,16 @@ public class gitworld
 	
 	public gitworld()
 	{
-		String l_msg = "Hello Git world");
+		String l_msg = "Hello Git world";
+		int l_limit = 5;
 		
-		for (int i = 0;i<5;i++)
-			printMsg(l_msg);
+		printMsg(l_msg,l_limit);
 	}
 
-	private void printMsg(String p_msg)
+	private void printMsg(String p_msg, int p_limit)
 	{
-		System.out.println(p_msg);
+		for (int i = 0; i < p_limit; i++)
+			System.out.println(p_msg);
 	}
 	
 	
